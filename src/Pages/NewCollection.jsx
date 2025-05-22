@@ -1,4 +1,6 @@
-
+import new1 from '../assets/new_1.png'
+import new2 from '../assets/new_2.png'
+import new3 from '../assets/new_3.png'
 
 
 export const NewCollection = () => {
@@ -13,7 +15,7 @@ export const NewCollection = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-center justify-center gap-4">
                  <div className="flex flex-col items-center justify-center gap-6">
                     <div className="border-2 border-amber-800 rounded-3xl w-[279px] h-[383px] relative bg-background-left/20">
-                        <img src="/src/assets/new_1.png" className="bottom-0 absolute" alt="" />
+                        <img src={new1} className="bottom-0 absolute" alt="" />
                     </div>
                     <div className="flex flex-col items-center justify-center text-xl text-amber-800 font-medium">
                         <h3>Coat with shirt</h3>
@@ -22,7 +24,7 @@ export const NewCollection = () => {
                  </div>
                  <div className="flex flex-col items-center justify-center gap-6">
                     <div className="border-2 border-amber-800 rounded-3xl w-[279px] h-[383px] relative bg-background-left/20">
-                        <img src="/src/assets/new_2.png" alt="" className="bottom-0 absolute" />
+                        <img src={new2} alt="" className="bottom-0 absolute" />
                     </div>
                     <div className="flex flex-col items-center justify-center text-xl text-amber-800 font-medium">
                         <h3>Crop top</h3>
@@ -31,7 +33,7 @@ export const NewCollection = () => {
                  </div>
                  <div className="flex flex-col items-center justify-center gap-6">
                     <div className="border-2 border-amber-800 rounded-3xl w-[279px] h-[383px] relative bg-background-left/20">
-                        <img src="/src/assets/new_3.png" alt="" className="bottom-0 absolute" />
+                        <img src={new3} alt="" className="bottom-0 absolute" />
                     </div>
                     <div className="flex flex-col items-center justify-center text-xl text-amber-800 font-medium">
                         <h3>Brown Denim Jacket</h3>

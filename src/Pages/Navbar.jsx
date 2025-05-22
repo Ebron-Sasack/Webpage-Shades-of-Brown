@@ -1,4 +1,4 @@
-
+import logo from '../assets/logo.png'
 import { Link, NavLink } from 'react-router-dom'
 
 export const Navbar = () => {
@@ -6,7 +6,7 @@ export const Navbar = () => {
     <div className="max-w-full flex items-center justify-between mx-auto px-10 z-50 bg-background-left ">
         <Link to={'/'}>
             <div className='flex items-center justify-center px-6'>
-                <img src="/src/assets/logo.png" className='w-[65px] h-[70px]' alt="" />
+                <img src={logo} className='w-[65px] h-[70px]' alt="" />
                 <div className='flex flex-col text-2xl md:text-3xl text-amber-800 font-bold items-start justify-center'>
                     <h1>Shades</h1>
                     <h1>of Brown</h1>
