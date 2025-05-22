@@ -1,0 +1,36 @@
+@font-face {
+  font-family: Oak;
+  src: url('../src/fonts/AmericanOak-Script.ttf');
+}
+
+
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Fleur+De+Leah&family=Monsieur+La+Doulaise&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rouge+Script&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+@theme{
+    --color-background-left: rgb(216, 208, 195);
+    --color-background-right: rgb(230, 227, 220);
+    --font-poppins:"Poppins", sans-serif;
+    --font-volkhov:"Volkhov", serif;
+    --font-fleur:"Fleur De Leah", cursive ;
+    --font-rouge:"Rouge Script", cursive;
+    --font-oak: Oak ,cursive;
+}
+
+
+@layer base {
+
+    a.active{
+    border-bottom: 3px solid rgb(151, 60, 0);
+  }
+}
+
+@layer components{
+
+  .text-stroke{
+    -webkit-text-stroke: 1px rgb(151, 60, 0);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+}
